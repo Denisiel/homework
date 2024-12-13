@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.text strong {
+    font-size: 30px;
+}
+.text img {
+    width: 27px;
+}
+.text p {
+    font-weight: 500px;
+    color: #797979;
+}
+label, span {
+    font-weight: 600;
+}
+.allinput span {
+    color: royalblue;
+}
+
+.double{
+    display: inline-block;
+}
+.double p{
+    display: block;
+}
+select {
+    color: #b0b0b0;
+}
+.gray {
+    color: #b0b0b0;
+}
+.allinput input::placeholder{
+    color: #b0b0b0;
+}
+#mess {
+    height: 100px;
+    width: 100%;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+
+.allinput input, select {
+    transition: 300ms;
+    padding: 8px 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #b0b0b0;
+}
+.submit #mess, select {
+    width: 100%;
+}
+.allinput div:first-child{
+    margin-right: 17px;
+}
+
+select {
+    border: 1px solid #b0b0b0;
+}
+
+input:focus, select:focus{
+    border-radius: 15px;
+    outline:none;
+    border: 1px solid royalblue;
+}
+.all {
+    display: block;
+    margin: auto;
+    width: 380px;
+    padding: 20px;
+}
+.text {
+    margin-bottom: 15px;
+}
+#but1{
+    margin: 0;
+    width: 100%;
+    padding: 8px 10px;
+}
+.last input[type="submit"]{
+    background-color: royalblue;
+    font-weight: 500;
+    color: white;
+    transition: 300ms;
+}
+.last input[type="submit"]:hover{
+    border-radius: 15px;
+    background-color: white;
+    color: royalblue;
+}
+div p {
+    margin-top: 13px ;
+}
