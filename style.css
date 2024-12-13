@@ -95,3 +95,6 @@ input:focus, select:focus{
 div p {
     margin-top: 13px ;
 }
+input[type="submit"]{
+    width: 100%;
+}
